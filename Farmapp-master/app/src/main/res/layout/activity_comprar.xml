@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComprarActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="CONFIRMAR DIRECCION"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="DE ENTREGA"
+            android:textColor="@color/verde_claro"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.829"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.108" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calle: "
+            android:textSize="16sp"
+            android:textColor="#757575"
+            />
+        <EditText
+            android:id="@+id/etCalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calle"
+            android:enabled="true"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Numero Int: "
+                    android:textSize="16sp"
+                    android:textColor="#757575"
+                    />
+                <EditText
+                    android:id="@+id/etNumInt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Num. Int."
+                    android:enabled="true"
+                    android:inputType="number"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Numero Ext: "
+                    android:textSize="16sp"
+                    android:textColor="#757575"
+                    />
+                <EditText
+                    android:id="@+id/etNumExt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Num. Ext."
+                    android:enabled="true"
+                    android:inputType="number"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colonia: "
+            android:textSize="16sp"
+            android:textColor="#757575"
+            />
+        <EditText
+            android:id="@+id/etColonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Colonia"
+            android:enabled="true"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo Postal: "
+            android:textSize="16sp"
+            android:textColor="#757575"
+            />
+        <EditText
+            android:id="@+id/etCP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Codigo Postal"
+            android:enabled="true"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btnConfirmarCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Compra"
+            android:textColor="#fff"
+            android:backgroundTint="@color/verde_claro"
+            android:layout_marginTop="30dp"
+            app:cornerRadius="60dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

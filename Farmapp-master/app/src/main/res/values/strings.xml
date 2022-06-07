@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Farmapp</string>
+    <string name="Btn_Login">Iniciar Sesión</string>
+    <string name="Btn_Envíar"> Envíar </string>
+    <string name="Olvidar_Contra">¿Olvidaste tu contraseña?</string>
+    <string name="Registrarse">Regístrate</string>
+    <string name="No_Cuenta">¿No tienes cuenta?</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contrase_a">Contraseña</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="RegistroTitle">Registro</string>
+    <string name="Email_Reg">Email</string>
+    <string name="Usuario_Reg">Nombre de usuario</string>
+    <string name="Telefono_Reg">Numero Telefonico</string>
+    <string name="Contra_Reg">Contraseña</string>
+    <string name="TeryCond">Acepto términos y condiciones</string>
+
+    <string name="CampoEmail"> Escriba su email por favor</string>
+    <string name="CampoUsuario">Escriba su usuario por favor </string>
+    <string name="CampoPass"> Escriba su contraseña por favor</string>
+    <string name="CampoTerYCond">Olvida los términos y condiciones</string>
+
+    <string name="dialog_titleBueno"> ¡Registro finalizado! </string>
+    <string name="dialog_messageBueno"> Tus datos se han guardado correctamente. </string>
+    <string name="dialog_deacuerdo"> De acuerdo </string>
+
+    <string name="CamposVacios"> Hay campos vacios</string>
+    <string name="Bienvenido"> Bienvenido</string>
+    <string name="inicio">Inicio</string>
+
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="carrito_de_compra">Carrito de compra</string>
+    <string name="historial">Historial</string>
+    <string name="c_digos_promocionales">Códigos promocionales</string>
+    <string name="redes_sociales">Redes sociales</string>
+    <string name="cont_ctanos">Contáctanos</string>
+    <string name="terminos_y_condiciones">Términos y Condiciones</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+
+</resources>

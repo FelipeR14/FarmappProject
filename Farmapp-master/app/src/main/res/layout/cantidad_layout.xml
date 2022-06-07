@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuantas unidades deseas agregar?"
+        android:textColor="#757575"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvExistencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Existencia actual: 10"
+        android:textColor="#757575"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnAgregarAlCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar al carrito"
+        android:textColor="#fff"
+        android:backgroundTint="@color/verde_claro"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="60dp"/>
+</LinearLayout>

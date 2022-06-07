@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectofarmapp.ui.home.HomeFragment"
+        android:label="FarmApp"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_editar"
+        android:name="com.example.proyectofarmapp.ui.editar.EditarFragment"
+        android:label="Editar perfil"
+        tools:layout="@layout/editar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.proyectofarmapp.ui.carrito.CarritoFragment"
+        android:label="Carrito de compra"
+        tools:layout="@layout/carrito_fragment" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.proyectofarmapp.ui.historial.HistorialFragment"
+        android:label="Historial"
+        tools:layout="@layout/historial_fragment" />
+
+    <fragment
+        android:id="@+id/nav_codigos"
+        android:name="com.example.proyectofarmapp.ui.codigos.CodigosFragment"
+        android:label="Códigos"
+        tools:layout="@layout/codigos_fragment" />
+
+    <fragment
+        android:id="@+id/nav_redes"
+        android:name="com.example.proyectofarmapp.ui.redes.RedesFragment"
+        android:label="Redes sociales"
+        tools:layout="@layout/redes_fragment" />
+</navigation>
